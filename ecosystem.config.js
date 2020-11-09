@@ -8,7 +8,7 @@ module.exports = {
         user: 'ubuntu',
         host: 'ec2-52-15-167-238.us-east-2.compute.amazonaws.com',
         key: '~/.ssh/cadoo.pem',
-        ref: 'origin/master',
+        ref: 'origin/main',
         repo: 'git@github.com:danwas/cadoo.git',
         path: '/home/ubuntu/cadoo',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
